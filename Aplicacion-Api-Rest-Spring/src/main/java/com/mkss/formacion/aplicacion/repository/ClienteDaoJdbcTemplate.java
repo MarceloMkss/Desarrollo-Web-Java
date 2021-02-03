@@ -8,10 +8,11 @@ import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.support.GeneratedKeyHolder;
 import org.springframework.jdbc.support.KeyHolder;
+import org.springframework.stereotype.Repository;
 
 import com.mkss.formacion.aplicacion.entity.Cliente;
 
-
+@Repository
 public class ClienteDaoJdbcTemplate implements Dao<Cliente> {
 
 	@Autowired

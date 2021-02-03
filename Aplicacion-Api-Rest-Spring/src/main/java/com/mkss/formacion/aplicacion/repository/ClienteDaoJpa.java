@@ -1,11 +1,10 @@
 package com.mkss.formacion.aplicacion.repository;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Repository;
 
 import com.mkss.formacion.aplicacion.entity.Cliente;
 
-@Repository // si quiero usar el otro clienteDaoJdbcTemplate, tengo que poner esa anotacion(@repository)
+ // si quiero usar el otro clienteDaoJdbcTemplate, tengo que poner esa anotacion(@repository)
 public class ClienteDaoJpa implements Dao<Cliente> {
 	
 	@Autowired
