@@ -2,6 +2,8 @@ package com.mkss.formacion.aplicacion.repository;
 
 import org.springframework.data.repository.CrudRepository;
 
-public interface ClienteRepository extends CrudRepository<T, ID>{
+import com.mkss.formacion.aplicacion.entity.Cliente;
+
+public interface ClienteRepository extends CrudRepository<Cliente, Long>{
 
 }
